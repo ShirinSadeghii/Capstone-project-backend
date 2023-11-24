@@ -46,7 +46,7 @@ const flightData = [
   time: "7:30pm-3:45am",
   date: "December 4, 2023",
   airline: "Lufthansa",
-  price: "$1050",
+  price: "$1,050",
   iata: "BCN",
 },
 {
@@ -56,7 +56,7 @@ const flightData = [
   time: "10:30am-7:15pm",
   date: "December 10, 2023",
   airline: "British Airlines",
-  price: "$1230",
+  price: "$1,230",
   iata: "LON",
 },
 {
@@ -66,7 +66,7 @@ const flightData = [
   time: "10:45am-7:30pm",
   date: "December 11, 2023",
   airline: "West Jet",
-  price: "$1345",
+  price: "$1,345",
   iata: "LON",
 },
 {
@@ -76,7 +76,7 @@ const flightData = [
   time: "2:30pm-11:10pm",
   date: "December 12, 2023",
   airline: "Air Canada",
-  price: "$1450",
+  price: "$1,450",
   iata: "LON",
 },
 {
@@ -86,7 +86,7 @@ const flightData = [
   time: "9:30pm-5:10pm",
   date: "December 14, 2023",
   airline: "British Airways",
-  price: "$1580",
+  price: "$1,580",
   iata: "LON",
 },
 {
@@ -176,7 +176,7 @@ const flightData = [
   time: "3:30pm-8:00pm",
   date: "December 15, 2023",
   airline: "SouthWest",
-  price: "$1180",
+  price: "$1,180",
   iata: "HNL",
 },
 {
@@ -186,7 +186,7 @@ const flightData = [
   time: "4:30am-10:45am",
   date: "December 17, 2023",
   airline: "American Airlines",
-  price: "$1140",
+  price: "$1,140",
   iata: "NHL",
 },
 {
@@ -206,7 +206,7 @@ const flightData = [
   time: "11:45pm-5:15am",
   date: "December 14, 2023",
   airline: "SouthWest",
-  price: "$1110",
+  price: "$1,110",
   iata: "NHL",
 },
 {
@@ -216,7 +216,7 @@ const flightData = [
   time: "11:00am-8:30pm",
   date: "December 11, 2023",
   airline: "Air Canada",
-  price: "$1350",
+  price: "$1,350",
   iata: "ATH",
 },
 {
@@ -226,7 +226,7 @@ const flightData = [
   time: "5:30am-1:45pm",
   date: "December 13, 2023",
   airline: "West Jet",
-  price: "$1320",
+  price: "$1,320",
   iata: "ATH",
 },
 {
@@ -236,7 +236,7 @@ const flightData = [
   time: "3:30pm-11:50pm",
   date: "December 16, 2023",
   airline: "Lufthansa",
-  price: "$1500",
+  price: "$1,500",
   iata: "ATH",
 },
 {
@@ -246,7 +246,7 @@ const flightData = [
   time: "5:30pm-1:50am",
   date: "December 16, 2023",
   airline: "Lufthansa",
-  price: "$1500",
+  price: "$1,500",
   iata: "ATH",
 },
 {
@@ -256,7 +256,7 @@ const flightData = [
   time: "3:00pm-11:10pm",
   date: "December 18, 2023",
   airline: "Lufthansa",
-  price: "$1680",
+  price: "$1,680",
   iata: "CDG",
 },
 {
@@ -266,7 +266,7 @@ const flightData = [
   time: "4:30am-12:20pm",
   date: "December 19, 2023",
   airline: "British Airlines",
-  price: "$1750",
+  price: "$1,750",
   iata: "CDG",
 },
 {
@@ -276,7 +276,7 @@ const flightData = [
   time: "5:30pm-2:40am",
   date: "December 20, 2023",
   airline: "Air Canada",
-  price: "$1800",
+  price: "$1,800",
   iata: "CDG",
 },
 {
@@ -286,7 +286,7 @@ const flightData = [
   time: "7:30pm-4:45am",
   date: "December 22, 2023",
   airline: "Air Canada",
-  price: "$1880",
+  price: "$1,880",
   iata: "CDG",
 }
 ]
