@@ -1,27 +1,31 @@
 const express = require('express');
 const app = express();
-// const router = express.Router();
+const router = express.Router();
 const knex = require("knex")(require("./knexfile.js"));
 const cors = require('cors');
 const bodyParser = require('body-parser');
 require('dotenv').config();
 const { PORT } = process.env;
-// const flightRouter = require("./routes/flightRouter.js");
-// const hotelRouter = require("./routes/hotelRouter.js");
+const signupRouter = require("./routes/signupRouter.js");
+const loginRouter = require("./routes/loginRouter.js");
+const profileRouter = require("./routes/profileRouter.js");
 
 console.log("hello");
 
 
-// middleware to parse req.body
+//middleware
+//----------------------------
 app.use(express.json());
-
-//required to parse stringified array of objects from SQL
-app.use(bodyParser.json())
 app.use(cors());
-
 app.use(express.static("public"));
-// app.use("/flightsearch", flightRouter);
-// app.use("/hotelsearch", hotelRouter);
+
+//required to parse stringified array of objects from SQ
+//------------------------------
+app.use(bodyParser.json())
+
+app.use("/signup", signupRouter);
+app.use("/login", loginRouter);
+app.use("/profile", profileRouter);
 
 
 app.get("/flightsearch/:city", async (req, res) => {
